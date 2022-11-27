@@ -13,10 +13,12 @@ body {
 #title {
     margin: 0px;
     padding: 0px;
-    font-size: 32px;
+    font-size: 34px;
+    font-family: poppins;
+    font-weight: bold;
     color: lightgoldenrodyellow;
     position:relative;
-    left: 500px;
+    left: 545px;
     top: 15px;
 }
   
@@ -41,7 +43,8 @@ body {
     background-color: lightgoldenrodyellow;
     border: 0px;
     border-radius: 12px;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: poppins;
     color: sienna;
 }
   
@@ -65,13 +68,17 @@ body {
 .h1 {
     color: lightgoldenrodyellow;
     font-size: 30px;
+    font-family: montserrat;
+    font-weight: bolder;
     border-bottom: 1px solid lightgoldenrodyellow;
 }
   
 .h2 {
+    margin: 50px;
     color: peachpuff;
     font-size: 14px;
-    margin: 50px;
+    font-family: poppins;
+    font-weight: normal;
 }
   
 section > ul {
@@ -84,7 +91,8 @@ section > ul {
   
 .links li {
     display: inline-block;
-    padding: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
 }
   
 .links a {
@@ -93,10 +101,14 @@ section > ul {
     border: 1px solid sienna;
     border-radius: 10px;
     text-decoration: none;
+    color: sienna;
+    font-family: poppins;
+    font-size: 14px;
 }
   
 .links a:visited {
     color: sienna;
+    border: 1px solid sienna;
 }
   
 .links a:hover {
