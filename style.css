@@ -8,6 +8,8 @@ body {
     padding: 10px;
     height:150px;
     background-color: darkkhaki;
+    text-align: center;
+
 }
   
 #title {
@@ -18,7 +20,7 @@ body {
     font-weight: bold;
     color: lightgoldenrodyellow;
     position:relative;
-    left: 545px;
+    left: 200px;
     top: 15px;
 }
   
