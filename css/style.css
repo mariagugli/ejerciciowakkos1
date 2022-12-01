@@ -7,54 +7,57 @@ body {
     margin: 0px;
     padding: 10px;
     height:150px;
+    position: relative;
     background-color: darkkhaki;
     text-align: center;
 
 }
   
-#title {
+.title {
     margin: 0px;
     padding: 0px;
     font-size: 34px;
-    font-family: poppins;
+    font-family: 'poppins', sans-serif;;
     font-weight: bold;
     color: lightgoldenrodyellow;
-    position:relative;
-    left: 200px;
-    top: 15px;
+    position: absolute;
+    top: 50px;
+    left: calc((100% - 500px) /2);
+    right: calc((100% - 500px) /2);
 }
   
-#title::before, #title::after {
+.title::before, .title::after {
     content:" 👋 ";
     width: 10px;
     height: 10px;
     background: darkkhaki;
 }
   
-.menu li {
+.menu {
     padding-top: 25px;
     display: inline-block;
-    float: right;
-    position:relative;
-    top:-30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
-  
-.menu button {
+
+.btn {
     margin: 5px;
     padding: 10px;
     background-color: lightgoldenrodyellow;
     border: 0px;
     border-radius: 12px;
     font-size: 16px;
-    font-family: poppins;
+    font-family: 'poppins', sans-serif;
     color: sienna;
 }
-  
-.menu button:hover {
+
+.btn:hover {
     background-color: peachpuff;
 }
   
-.web-design, .fotografia {
+.web-design, 
+.fotografia {
     margin: 100px;
     padding: 10px;
     display: inline-block;
@@ -64,55 +67,55 @@ body {
 }
   
 .fotografia {
-    float: right;
+    position: absolute;
+    right: 0px;
 }
   
 .h1 {
     color: lightgoldenrodyellow;
     font-size: 30px;
-    font-family: montserrat;
-    font-weight: bolder;
+    font-family: 'montserrat', sans-serif;;
+    font-weight: bold;
     border-bottom: 1px solid lightgoldenrodyellow;
 }
   
 .h2 {
     margin: 50px;
-    color: peachpuff;
+    color: lightgoldenrodyellow;
     font-size: 14px;
-    font-family: poppins;
-    font-weight: normal;
+    font-family: 'poppins', sans-serif;
+    font-weight: 200;
 }
-  
-section > ul {
+
+.links-container {
     background-color: coral;
     margin: 0px;
-    padding: 0px;
-    height: 70px;
-    width: 100%
-}
-  
-.links li {
-    display: inline-block;
     padding-top: 25px;
     padding-left: 10px;
+    height: 70px;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
 }
   
-.links a {
+.link {
+    margin-left: 10px;
     padding: 7px;
     background-color: lightgoldenrodyellow;
     border: 1px solid sienna;
     border-radius: 10px;
     text-decoration: none;
     color: sienna;
-    font-family: poppins;
+    font-family: 'poppins', sans-serif;
     font-size: 14px;
 }
   
-.links a:visited {
+.link:visited {
     color: sienna;
 }
   
-.links a:hover {
+.link:hover {
     background-color: peachpuff;
 }
   
